@@ -45,20 +45,22 @@
     <h2>Sign up</h2>
     <form>
     Username:<br>
-    <input type="text" name="username"><br>
+    <input type="text" name="username" required><br>
     Password:<br>
-    <input type="password" name="password"><br>
+    <input type="password" name="password" required><br>
     First name:<br>
-    <input type="text" name="firstname"><br>
+    <input type="text" name="firstname" required><br>
     Last name:<br>
-    <input type="text" name="lastname"><br>
+    <input type="text" name="lastname" required><br>
     Email address:<br>
-    <input type="text" name="email"><br>
+    <input type="email" name="email" required><br>
+    <br>
     Do you want offers sent to your e&dash;mail&quest;<br>
     <input type="radio" name="offers" value="yes" checked> Yes<br>
     <input type="radio" name="offers" value="no"> No<br>
     <br>
-    <input type="submit"><br>
+    <button type="submit" onclick="alert('Submit Successful')">Submit</button>
+    <input type="reset">
     <br>
     
     </form>
